@@ -30,7 +30,7 @@ const Features = () => {
         },
     ]);
     return (
-        <section className="pb-[50px]">
+        <section id="features" className="pb-[50px]">
             <div className="container">
                 <Card items={items} />
             </div>

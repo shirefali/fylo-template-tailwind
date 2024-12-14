@@ -126,7 +126,10 @@ function Footer() {
         'instagram',
     ]);
     return (
-        <section className="bg-[#0c1524] pt-[320px] md:pt-[200px] pb-[100px] text-white ">
+        <section
+            className="bg-[#0c1524] pt-[320px] md:pt-[200px] pb-[100px] text-white"
+            id="signin"
+        >
             <div className="container mx-auto text-center md:m-0 md:text-left">
                 <a href="#">
                     <img

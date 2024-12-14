@@ -1,7 +1,7 @@
 const TestimonialData = ({ item }) => {
     const { id, desc, image, position, name } = item;
     return (
-        <div className="p-[30px] bg-[#21293c] rounded shadow">
+        <div className="p-[30px] bg-[#21293c] rounded shadow" id="team">
             <p className="text-sm font-normal tracking-[0.9] text-white leading-[1.6]">
                 {desc}
             </p>
